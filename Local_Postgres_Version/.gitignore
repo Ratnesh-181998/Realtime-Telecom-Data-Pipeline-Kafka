@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.env
+
+# Spark
+checkpoint/
+spark-checkpoint/
+*.log
+derby.log
+metastore_db/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Extracted JAR (not needed in repo)
+redshift-jdbc42-2.1.0.12_extracted/
+
+# Temp files
+*.tmp
+*.temp
