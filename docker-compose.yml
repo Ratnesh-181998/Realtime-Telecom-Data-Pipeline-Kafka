@@ -27,7 +27,6 @@ services:
         condition: service_healthy
     ports:
       - "9092:9092"
-      - "9101:9101"
     environment:
       KAFKA_BROKER_ID: 1
       KAFKA_ZOOKEEPER_CONNECT: 'zookeeper:2181'
@@ -104,7 +103,7 @@ services:
       retries: 5
 
   spark-master:
-    image: bitnami/spark:latest
+    image: apache/spark:3.5.0
     command: bin/spark-class org.apache.spark.deploy.master.Master
     ports:
       - "9090:8080"
@@ -112,7 +111,7 @@ services:
     networks:
       - confluent
   spark-worker:
-    image: bitnami/spark:latest
+    image: apache/spark:3.5.0
     command: bin/spark-class org.apache.spark.deploy.worker.Worker spark://spark-master:7077
     depends_on:
       - spark-master
