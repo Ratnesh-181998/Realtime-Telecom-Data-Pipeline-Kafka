@@ -54,7 +54,7 @@ This project implements a **real-time telecom Call Detail Record (CDR) processin
 
 ## 🌐 Live Demo
 
-🔗 **[View Live Dashboard](https://your-streamlit-app-url.streamlit.app/)**
+🔗 **[View Live Dashboard](https://realtime-telecom-data-pipeline-kafka-rqf9q28jaxeq56hflarcch.streamlit.app/)**
 
 > *Experience the real-time analytics dashboard with live data streaming from Supabase!*
 
