@@ -1,0 +1,44 @@
+--------------------------------
+
+1. PROGRAMMING LANGUAGE
+
+ • Python  • PySpark • SQL • Linux Shell Scripting 
+
+2. DATABASES
+
+• MySQL • PostgreSQL • MongoDB • Cassandra
+
+3. DATA WAREHOUSES
+
+• Apache Hive • Redshift
+• Snowflake • Databricks • BigQuery
+
+4. MESSAGE QUEUE
+
+• Confluent Kafka
+
+5. DISTRIBUTED COMPUTATION FRAMEWORKS
+
+• Apache Hadoop • Apache Spark
+
+6. WORKFLOW MANAGEMENT
+
+• Apache Airflow
+
+7. AWS SERVICES
+
+• S3 • EMR • Lambda
+• DynamoDB • Redshift • Glue
+• Athena • EC2 • SNS • SQS
+
+8. BUILD TOOLS & CONTAINERS
+
+• Docker • Kubernetes • Jenkins
+
+9. CONTROL SYSTEMS & DOCUMENTATION
+
+• Git/GitHub • Jira
+
+---------------------------
+
+
